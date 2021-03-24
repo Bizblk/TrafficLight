@@ -13,14 +13,26 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenView: UIView!
     @IBOutlet weak var startButton: UIButton!
     
+    
+    
+       override func viewWillLayoutSubviews() {
+           super.viewWillLayoutSubviews()
+        redView.layer.cornerRadius = redView.frame.size.width / 2
+        yellowView.layer.cornerRadius = yellowView.frame.size.width / 2
+        greenView.layer.cornerRadius = greenView.frame.size.width / 2
+
+    //    redView.clipsToBounds = true
+}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         redView.alpha = 0.3
-        redView.layer.cornerRadius = 45
+       // redView.layer.cornerRadius = redView.frame.size.width / 2
+        //redView.clipsToBounds = true
         yellowView.alpha = 0.3
-        yellowView.layer.cornerRadius = 45
+      //  yellowView.layer.cornerRadius = 50
         greenView.alpha = 0.3
-        greenView.layer.cornerRadius = 45
+      //  greenView.layer.cornerRadius = 50
         startButton.layer.cornerRadius = 15
         // Do any additional setup after loading the view.
     }
