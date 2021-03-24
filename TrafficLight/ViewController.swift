@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         redView.alpha = 0.3
-       // redView.layer.cornerRadius = redView.frame.size.width / 2
+     //   redView.layer.cornerRadius = redView.frame.size.width / 2
         //redView.clipsToBounds = true
         yellowView.alpha = 0.3
       //  yellowView.layer.cornerRadius = 50
