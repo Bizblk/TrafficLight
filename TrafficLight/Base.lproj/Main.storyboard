@@ -17,23 +17,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGq-at-kUX">
-                                <rect key="frame" x="110" y="119" width="197" height="522"/>
+                                <rect key="frame" x="110" y="119" width="197" height="521"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eb7-Jg-RIX">
-                                <rect key="frame" x="147" y="154" width="120" height="120.5"/>
+                                <rect key="frame" x="147" y="154" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Eb7-Jg-RIX" secondAttribute="height" multiplier="1:1" id="A66-8m-A1A"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEL-QD-5qS">
-                                <rect key="frame" x="147" y="316.5" width="120" height="120"/>
+                                <rect key="frame" x="147" y="316" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VEL-QD-5qS" secondAttribute="height" multiplier="1:1" id="l1W-Hb-Oy9"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7D-wh-k4U">
-                                <rect key="frame" x="147" y="479.5" width="120" height="120.5"/>
+                                <rect key="frame" x="147" y="479" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="m7D-wh-k4U" secondAttribute="height" multiplier="1:1" id="45W-gQ-sxW"/>
+                                </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfw-gm-xBY">
-                                <rect key="frame" x="107" y="768" width="200" height="30"/>
+                                <rect key="frame" x="107" y="767" width="200" height="30"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" systemColor="labelColor"/>
